@@ -1,0 +1,20 @@
+# Organization ibm.com
+dn: dc=ibm,dc=com
+dc: ibm
+objectclass: dcObject
+objectclass: organizationalUnit
+ou: ibm.com
+
+# Users
+dn: ou=engineers,dc=ibm,dc=com
+objectClass: organizationalUnit
+ou: engineers
+
+dn: ou=managers,dc=ibm,dc=com
+objectClass: organizationalUnit
+ou: managers
+
+# Groups
+dn: ou=groups,dc=ibm,dc=com
+objectClass: organizationalUnit
+ou: groups

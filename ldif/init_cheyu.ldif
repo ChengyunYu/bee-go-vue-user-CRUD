@@ -1,0 +1,12 @@
+# User cheyu
+dn: uid=cheyu,ou=engineers,dc=ibm,dc=com
+uid: cheyu
+cn: Chengyun Yu
+givenName: Chengyun
+sn: Yu
+displayName: ChengyunYu
+mail: cheyu@ibm.com
+objectClass: top
+objectClass: inetOrgPerson
+ou: engineers
+userPassword: 941118

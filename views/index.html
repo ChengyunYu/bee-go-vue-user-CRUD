@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="context-type" content="text/html" ; charset="utf-8">
+<link rel="stylesheet" href="http://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<link rel="stylesheet" type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<head>
+    <title>User CRUD Demo</title>
+</head>
+
+<body>
+
+<el-container width="100%" id="app">
+    <el-main style="padding: 1.54%">
+        <el-dialog
+                title="Add New User"
+                :visible.sync="dialogVisible"
+                width="50%"
+                id="createForm"
+                style="font-size: 12px"
+                :before-close="closeCreateDialog"
+                v-loading="loadingCreate">
+            <el-form :model="newUser"
+                     :rules="create_rules" ref="newUser"
+                     :label-position="'right'" label-width="30%">
+                <el-form-item label="Surname" prop="surname">
+                    <el-input v-model="newUser.surname" style="width:70%;" size="small" clearable
+                              @blur="newUser.surname = newUser.surname.toUpperCase()"></el-input>
+                </el-form-item>
+                <el-form-item label="Given Name" prop="given_name">
+                    <el-input v-model="newUser.given_name" style="width:70%;" size="small" clearable
+                              @blur="newUser.given_name = newUser.given_name.toUpperCase()"></el-input>
+                </el-form-item>
+                <el-form-item label="Enter Password" prop="password_1">
+                    <el-input
+                            type="password" v-model="newUser.password_1" style="width:70%;" size="small" clearable>
+                    </el-input>
+                </el-form-item>
+                <el-form-item label="Re-enter Password" prop="password_2">
+                    <el-input
+                            type="password" v-model="newUser.password_2" style="width:70%;" size="small" clearable>
+                    </el-input>
+                </el-form-item>
+                <el-form-item label="Email" prop="email">
+                    <el-input v-model="newUser.email" style="width:70%;" size="small"
+                              @blur="newUser.email = newUser.email.toLowerCase()"></el-input></el-input>
+                </el-form-item>
+                <el-form-item label="Organization" prop="org">
+                    <el-select v-model="newUser.org" placeholder="Please Select" style="width:70%;" size="small">
+                        <el-option
+                                v-for="(org, index) in orgs" :value="org.value" :label="org.text" :key="index">
+                        </el-option>
+                    </el-select>
+                </el-form-item>
+            </el-form>
+            <div slot="footer" class="dialog-footer" height="0px">
+                <el-button @click="resetForm('newUser')">Reset</el-button>
+                <el-button @click="closeForm('newUser')">Cancel</el-button>
+                <el-button type="primary" @click="createUser">Submit</el-button>
+            </div>
+        </el-dialog>
+
+        <el-dialog
+                title="Edit User"
+                :visible.sync="dialogEditVisible"
+                width="50%"
+                id="editForm"
+                style="font-size: 12px"
+                v-if="hackReset"
+                :before-close="closeEditDialog"
+                v-loading="loadingEdit">
+            <el-form :model="editedUser"
+                     :rules="edit_rules" ref="editedUser"
+                     :label-position="'right'" label-width="30%">
+                <el-form-item label="Surname" prop="surname">
+                    <el-input v-model="editedUser.surname" style="width:70%;" size="small" clearable
+                              @blur="newUser.surname = newUser.surname.toUpperCase()"></el-input>
+                </el-form-item>
+                <el-form-item label="Given Name" prop="given_name">
+                    <el-input v-model="editedUser.given_name" style="width:70%;" size="small" clearable
+                              @blur="newUser.surname = newUser.surname.toUpperCase()"></el-input>
+                </el-form-item>
+                <el-form-item label="Email" prop="email">
+                    <el-input v-model="editedUser.email" style="width:70%;" size="small" clearable
+                              @blur="newUser.surname = newUser.surname.toLowerCase()"></el-input>
+                </el-form-item>
+                <el-form-item label="Organization" prop="org">
+                    <el-select v-model="editedUser.org" placeholder="Please Select" style="width:70%;" size="small">
+                        <el-option
+                                v-for="(org, index) in orgs" :value="org.value" :label="org.text" :key="index">
+                        </el-option>
+                    </el-select>
+                </el-form-item>
+                <el-form-item label="Password">
+                    <el-button @click="showUpdatePassword" type="primary" size="small">Edit password...</el-button>
+                </el-form-item>
+            </el-form>
+            <div slot="footer" class="dialog-footer" height="0px">
+                <el-button @click="resetForm('editedUser')">Reset</el-button>
+                <el-button @click="closeEditDialog()">Cancel</el-button>
+                <el-button type="primary" @click="editUser">Submit</el-button>
+            </div>
+        </el-dialog>
+
+        <el-dialog
+                title="Update Password"
+                :visible.sync="dialogPasswordVisible"
+                width="50%"
+                id="passwordForm"
+                style="font-size: 12px"
+                :before-close="closePasswordDialog"
+                v-loading="loadingPassword">
+            <el-form :model="newPassword"
+                     :rules="password_rules" ref="newPassword"
+                     :label-position="'right'" label-width="30%">
+                <el-form-item label="Enter Password" prop="password_1">
+                    <el-input
+                            type="password" v-model="newPassword.password_1" style="width:70%;" size="small" clearable>
+                    </el-input>
+                </el-form-item>
+                <el-form-item label="Re-enter Password" prop="password_2">
+                    <el-input
+                            type="password" v-model="newPassword.password_2" style="width:70%;" size="small" clearable>
+                    </el-input>
+                </el-form-item>
+            </el-form>
+            <div slot="footer" class="dialog-footer" height="0px">
+                <el-button @click="resetForm('newPassword')">Reset</el-button>
+                <el-button @click="closeForm('newPassword')">Cancel</el-button>
+                <el-button type="primary" @click="updatePassword">Submit</el-button>
+            </div>
+        </el-dialog>
+
+        <el-row>
+            <el-input
+                    style="width: 60%;"
+                    placeholder="Search by user name..."
+                    v-model.trim="keyword"
+                    autofocus
+                    clearable>
+            </el-input>
+            <el-button
+                    style="width: 8%; margin-left: 0.8%"
+                    type="primary"
+                    v-on:click="getUsersFirst">
+                Search
+            </el-button>
+            <el-button
+                    style="width: 8%; margin-left: 0.8%"
+                    v-on:click="clearInput">
+                Clear
+            </el-button>
+            <el-button
+                    type="primary"
+                    style="width: 8%; margin-left: 0.8%"
+                    data-toggle="modal"
+                    data-target="#createUser"
+                    v-on:click="showCreateUser">
+                Create
+            </el-button>
+        </el-row>
+
+        <el-table
+                :data="searchUsers"
+                style="width: 88.2%"
+                v-loading="loadingTable">
+            <el-table-column
+                    prop="surname"
+                    label="Surname"
+                    min-width="15%">
+            </el-table-column>
+            <el-table-column
+                    prop="given_name"
+                    label="Given Name"
+                    min-width="15%">
+            </el-table-column>
+            <el-table-column
+                    prop="email"
+                    label="Email"
+                    min-width="30%">
+            </el-table-column>
+            <el-table-column
+                    prop="org"
+                    label="Organization"
+                    min-width="15%">
+            </el-table-column>
+            <el-table-column
+                    fixed="right"
+                    label="Operations"
+                    min-width="13.2%"
+                    align="right">
+                <template slot-scope="scope">
+                    <el-button @click="showEditUser(scope.row)" type="text" size="large">Edit</el-button>
+                    <el-button type="text" size="large" @click="deleteUser(scope.row)">Delete</el-button>
+                </template>
+            </el-table-column>
+        </el-table>
+    </el-main>
+    <el-footer>
+        <div class="block" style="width: 87.2%; text-align: center">
+            <el-pagination
+                    layout="total, prev, pager, next, jumper"
+                    :total="totalRecords"
+                    :page-size="10"
+                    @current-change="getUsersPage"
+                    :current-page.sync="currentPage">
+            </el-pagination>
+        </div>
+    </el-footer>
+</el-container>
+</body>
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script src="https://unpkg.com/vue-resource@1.5.1/dist/vue-resource.min.js"></script>
+<script src="http://unpkg.com/element-ui/lib/index.js"></script>
+<script type="text/javascript" src="static/js/app.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+</script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script>
+</html>

@@ -1,0 +1,16 @@
+# Group users
+dn: cn=users,ou=groups,dc=ibm,dc=com
+cn: users
+ou: groups
+objectClass: top
+objectclass: groupOfNames
+member: cn=admin,dc=ibm,dc=com
+
+# Group administrators
+dn: cn=admins,ou=groups,dc=ibm,dc=com
+cn: admins
+ou: groups
+objectClass: top
+objectclass: groupOfNames
+member: cn=admin,dc=ibm,dc=com
+
