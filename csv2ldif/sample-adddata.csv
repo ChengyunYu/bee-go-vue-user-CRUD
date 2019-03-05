@@ -1,0 +1,31 @@
+dn,cn,objectClass,objectClass,objectClass,cmeMembershipKey
+"cn=Portal 3270,ou=IDV-GROUPS,o=CME",Portal 3270,groupOfNames,cmeIDMGroup,Top,Portal 3270
+"cn=Portal Auction Markets,ou=IDV-GROUPS,o=CME",Portal Auction Markets,groupOfNames,cmeIDMGroup,Top,Portal Auction Markets
+"cn=Portal Broker Payment System,ou=IDV-GROUPS,o=CME",Portal Broker Payment System,groupOfNames,cmeIDMGroup,Top,Portal Broker Payment System
+"cn=Portal Calendar,ou=IDV-GROUPS,o=CME",Portal Calendar,groupOfNames,cmeIDMGroup,Top,Portal Calendar
+"cn=Portal Citrix,ou=IDV-GROUPS,o=CME",Portal Citrix,groupOfNames,cmeIDMGroup,Top,Portal Citrix
+"cn=Portal Clearing 21,ou=IDV-GROUPS,o=CME",Portal Clearing 21,groupOfNames,cmeIDMGroup,Top,Portal Clearing 21
+"cn=Portal Clearing 21 Release 2,ou=IDV-GROUPS,o=CME",Portal Clearing 21 Release 2,groupOfNames,cmeIDMGroup,Top,Portal Clearing 21 Release 2
+"cn=Portal Clearing Fee System,ou=IDV-GROUPS,o=CME",Portal Clearing Fee System,groupOfNames,cmeIDMGroup,Top,Portal Clearing Fee System
+"cn=Portal Clearing Firm Contact List,ou=IDV-GROUPS,o=CME",Portal Clearing Firm Contact List,groupOfNames,cmeIDMGroup,Top,Portal Clearing Firm Contact List
+"cn=Portal Clearing Gateway,ou=IDV-GROUPS,o=CME",Portal Clearing Gateway,groupOfNames,cmeIDMGroup,Top,Portal Clearing Gateway
+"cn=Portal Clearing News,ou=IDV-GROUPS,o=CME",Portal Clearing News,groupOfNames,cmeIDMGroup,Top,Portal Clearing News
+"cn=Portal COWS,ou=IDV-GROUPS,o=CME",Portal COWS,groupOfNames,cmeIDMGroup,Top,Portal COWS
+"cn=Portal Dcoument Direct,ou=IDV-GROUPS,o=CME",Portal Dcoument Direct,groupOfNames,cmeIDMGroup,Top,Portal Dcoument Direct
+"cn=Portal Deliveries,ou=IDV-GROUPS,o=CME",Portal Deliveries,groupOfNames,cmeIDMGroup,Top,Portal Deliveries
+"cn=Portal Exchange Fee System,ou=IDV-GROUPS,o=CME",Portal Exchange Fee System,groupOfNames,cmeIDMGroup,Top,Portal Exchange Fee System
+"cn=Portal Fee System Portal,ou=IDV-GROUPS,o=CME",Portal Fee System Portal,groupOfNames,cmeIDMGroup,Top,Portal Fee System Portal
+"cn=Portal FirmSoft Admin,ou=IDV-GROUPS,o=CME",Portal FirmSoft Admin,groupOfNames,cmeIDMGroup,Top,Portal FirmSoft Admin
+"cn=Portal FirmSoft,ou=IDV-GROUPS,o=CME",Portal FirmSoft,groupOfNames,cmeIDMGroup,Top,Portal FirmSoft
+"cn=Portal Front End Clearing,ou=IDV-GROUPS,o=CME",Portal Front End Clearing,groupOfNames,cmeIDMGroup,Top,Portal Front End Clearing
+"cn=Portal FX MarketSpace,ou=IDV-GROUPS,o=CME",Portal FX MarketSpace,groupOfNames,cmeIDMGroup,Top,Portal FX MarketSpace
+"cn=Portal Give Up Payment System,ou=IDV-GROUPS,o=CME",Portal Give Up Payment System,groupOfNames,cmeIDMGroup,Top,Portal Give Up Payment System
+"cn=Portal Juneau,ou=IDV-GROUPS,o=CME",Portal Juneau,groupOfNames,cmeIDMGroup,Top,Portal Juneau
+"cn=Portal Large Trader,ou=IDV-GROUPS,o=CME",Portal Large Trader,groupOfNames,cmeIDMGroup,Top,Portal Large Trader
+"cn=Portal MAS,ou=IDV-GROUPS,o=CME",Portal MAS,groupOfNames,cmeIDMGroup,Top,Portal MAS
+"cn=Portal R-D,ou=IDV-GROUPS,o=CME",Portal R-D,groupOfNames,cmeIDMGroup,Top,Portal R-D
+"cn=Portal Spot Call,ou=IDV-GROUPS,o=CME",Portal Spot Call,groupOfNames,cmeIDMGroup,Top,Portal Spot Call
+"cn=Portal Console,ou=IDV-GROUPS,o=CME",Portal Console,groupOfNames,cmeIDMGroup,Top,Portal Console
+"cn=Portal TIPS,ou=IDV-GROUPS,o=CME",Portal TIPS,groupOfNames,cmeIDMGroup,Top,Portal TIPS
+"cn=Portal VDS,ou=IDV-GROUPS,o=CME",Portal VDS,groupOfNames,cmeIDMGroup,Top,Portal VDS
+"cn=Portal CME Firm Contacts,ou=IDV-GROUPS,o=CME",Portal CME Firm Contacts,groupOfNames,cmeIDMGroup,Top,Portal CME Firm Contacts

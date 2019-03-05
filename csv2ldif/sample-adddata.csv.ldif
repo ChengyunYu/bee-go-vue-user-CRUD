@@ -1,0 +1,243 @@
+
+version: 1
+
+dn: cn=Portal 3270,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal 3270
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal 3270
+
+dn: cn=Portal Auction Markets,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Auction Markets
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Auction Markets
+
+dn: cn=Portal Broker Payment System,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Broker Payment System
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Broker Payment System
+
+dn: cn=Portal Calendar,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Calendar
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Calendar
+
+dn: cn=Portal Citrix,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Citrix
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Citrix
+
+dn: cn=Portal Clearing 21,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Clearing 21
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Clearing 21
+
+dn: cn=Portal Clearing 21 Release 2,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Clearing 21 Release 2
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Clearing 21 Release 2
+
+dn: cn=Portal Clearing Fee System,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Clearing Fee System
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Clearing Fee System
+
+dn: cn=Portal Clearing Firm Contact List,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Clearing Firm Contact List
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Clearing Firm Contact List
+
+dn: cn=Portal Clearing Gateway,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Clearing Gateway
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Clearing Gateway
+
+dn: cn=Portal Clearing News,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Clearing News
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Clearing News
+
+dn: cn=Portal COWS,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal COWS
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal COWS
+
+dn: cn=Portal Dcoument Direct,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Dcoument Direct
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Dcoument Direct
+
+dn: cn=Portal Deliveries,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Deliveries
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Deliveries
+
+dn: cn=Portal Exchange Fee System,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Exchange Fee System
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Exchange Fee System
+
+dn: cn=Portal Fee System Portal,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Fee System Portal
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Fee System Portal
+
+dn: cn=Portal FirmSoft Admin,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal FirmSoft Admin
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal FirmSoft Admin
+
+dn: cn=Portal FirmSoft,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal FirmSoft
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal FirmSoft
+
+dn: cn=Portal Front End Clearing,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Front End Clearing
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Front End Clearing
+
+dn: cn=Portal FX MarketSpace,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal FX MarketSpace
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal FX MarketSpace
+
+dn: cn=Portal Give Up Payment System,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Give Up Payment System
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Give Up Payment System
+
+dn: cn=Portal Juneau,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Juneau
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Juneau
+
+dn: cn=Portal Large Trader,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Large Trader
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Large Trader
+
+dn: cn=Portal MAS,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal MAS
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal MAS
+
+dn: cn=Portal R-D,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal R-D
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal R-D
+
+dn: cn=Portal Spot Call,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Spot Call
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Spot Call
+
+dn: cn=Portal Console,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal Console
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal Console
+
+dn: cn=Portal TIPS,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal TIPS
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal TIPS
+
+dn: cn=Portal VDS,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal VDS
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal VDS
+
+dn: cn=Portal CME Firm Contacts,ou=IDV-GROUPS,o=CME
+changetype: add
+cn: Portal CME Firm Contacts
+objectClass: groupOfNames
+objectClass: cmeIDMGroup
+objectClass: Top
+cmeMembershipKey: Portal CME Firm Contacts
+

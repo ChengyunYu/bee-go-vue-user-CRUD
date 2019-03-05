@@ -1,0 +1,90 @@
+DN,employeetype
+"CN=Jeffrey Miller,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Bryan Green,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Mike Hartigan,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Tami Anderson,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Tom Brame,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Kerry Tholl,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Dawn Sadula-Westphal,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Shawn Beland,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jason Ragsdale,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Angela Clayton,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Kim Roberts,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Will Soto,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jason Rigney,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=James Gilmore,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Rosalind Ammons,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Earl Wade,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Miguel Camacho,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Julio Babilonia,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Derek Patzer,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Alex Guevara,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jeff Barton,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Anson Goode,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Procter, Steven,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jim Johnston,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=George Coleman,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Adrian Herrera,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jim Breit,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Brad Burnett,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Gregg Taylor,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Eric Spivey,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Charlie Spencer,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jim Osness,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Vincent Ramirez,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Tom Carter,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Rodd Rasmussen,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Raymond L. Peterson,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Leslie Helberg,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Joe Tramontana,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=James Bittles,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Marshall, David,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Dennis Hutchinson,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=William J. Anthony,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Karl Weinberg,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Phillip Papesh,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Ellyn Burnett,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=David Christiansen,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Judith Caloud,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=John Janda,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Patrick J. Hynes,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Michael King,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Brian Singer,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Thomas Wise,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Victor Litterio,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Donald Swain,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Craig Newlander,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Julia Bronson,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",TEMP
+"CN=Beverly Benford,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Steven Swenson,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Calvin E. Jenkins,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Roscoe Hendricks,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Ryan McNally,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jerry Roberts,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Ann Shuman,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=David Smith,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=John Murdaugh,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Arman Falsafi,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Wanda Bryant,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Bradley Brieman,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Edward Grabenhofer,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Erika Tucker,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Heidi R. Clarey,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jim Messer,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=John M. Mize,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Jim Weil,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Michael Salvador,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Scott Lancaster,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=William R. Quayle,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Joseph Panfil,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Xueyan Bell,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Stephen Berman,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=John W. Cody,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=William Schroeder,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Rob Davies,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Heather Munoz,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Eileen Schatz,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Michael C. Mraz,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Mike Corcoran,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Floro Lozano,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
+"CN=Craig Taylor,OU=CME Users,DC=prod,DC=ad,DC=merc,DC=chicago,DC=cme,DC=com",EMPLOYEE
