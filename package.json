@@ -3,7 +3,7 @@
   "lockfileVersion": 1,
   "dependencies": {
     "element-ui": "^2.5.4",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "vue": "^2.6.6"
   },
   "devDependencies": {
